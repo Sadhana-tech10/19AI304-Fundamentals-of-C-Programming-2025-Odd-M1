@@ -26,7 +26,27 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```
+#include <stdio.h>
+
+int main()
+{
+    int num = 100;            // Integer literal
+    float pi = 3.14;          // Float literal
+    char grade = 'A';         // Character literal
+    char name[] = "Saveetha"; // String literal
+
+    printf("Integer Literal: %d\n", num);
+    printf("Float Literal: %.2f\n", pi);
+    printf("Character Literal: %c\n", grade);
+    printf("String Literal: %s\n", name);
+
+    return 0;
+}
+```
 # Output:
+<img width="1697" height="628" alt="image" src="https://github.com/user-attachments/assets/94aeb92f-0931-4d22-b311-d2b0096b97fc" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +77,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include <stdio.h>
+
+#define PI 3.14159   // Macro constant
+
+int main()
+{
+    const int MAX = 100;   // Constant variable
+
+    printf("Macro Constant PI = %.5f\n", PI);
+    printf("Constant Variable MAX = %d\n", MAX);
+
+    return 0;
+}
+```
 # Output:
+<img width="1322" height="445" alt="image" src="https://github.com/user-attachments/assets/5b1719db-e655-4a56-8406-6edbbc11ac9d" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
